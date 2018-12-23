@@ -1,8 +1,8 @@
-An MITM based Social Engineering (Phishing)attack POC!
+MITM Password Reset Framework
 ========================================================
 
 
-Hacking email account is probably something which intrigues all of us. Phishing is an example of social engineering techniques used to take advantage of human ignorance. It allows unscrupulous people to exploit the weaknesses in web security technology.Here we will discuss about an advanced way which can be used to perform an advanced automated phishing attack.
+Based of the reseach paper (https://www.ieee-security.org/TC/SP2017/papers/207.pdf, this framework aims to aid in the proccess of a password reset MITM attack.
 
 As cyber awareness is increasing day by day,number of failed phishing attempts is also increasing. Most of the Internet users goes through few check before entering critical information like user name password in an web form.This approach is a kind of an indirect phishing attack.Here instead of asking victims directly their user name and password attacker will put some challenges to victim which Google or any other email service provider gives us while trying to reset the password of his/her Email account. When victim solve those challenges we will take the solution of those challenges from victim and submit it to actual server and successfully reset password in an automated manner. These challenges can be related to answering security questions or SMS based password reset.
 
